@@ -1,5 +1,16 @@
 /storage/uploads/
 /storage/logs/
 
+/public/css/output.css
+
 .idea/                 
 .vscode/
+.DS_Store              
+Thumbs.db              
+
+/node_modules/
+npm-debug.log*
+
+*.log
+*.tmp
+*.bak

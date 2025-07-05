@@ -58,11 +58,21 @@ A simple, secure web application built with PHP and MySQL for users to upload, s
 
     - Add `127.0.0.1 datamesh.local` to your `C:\Windows\System32\drivers\etc\hosts` file.
 
-4.  **Update Database Credentials:**
+4.  **Install Node.js Dependencies & Build Tailwind CSS:**
+
+    - Navigate to your project root in the terminal.
+
+    - Install dependencies: `npm install`
+
+    - Build Tailwind CSS for production: `npm run tailwind:build`
+
+    - For development (watch for changes): `npm run tailwind:watch`
+
+5.  **Update Database Credentials:**
 
     - Edit `app/config/database.php` with your MySQL username and password.
 
-5.  **Restart Apache** from the XAMPP Control Panel.
+6.  **Restart Apache** from the XAMPP Control Panel.
 
 ## Usage
 
