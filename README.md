@@ -16,8 +16,6 @@ A simple, secure web application built with PHP and MySQL for users to upload, s
 
 - **Search Functionality:** Easily search for files by name, description, and type.
 
-- **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
-
 ## Screenshots
 
 ### Login Page
